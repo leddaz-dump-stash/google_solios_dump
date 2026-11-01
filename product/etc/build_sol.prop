@@ -1,0 +1,9 @@
+ro.product.product.device=sol
+ro.product.product.name=sol
+ro.product.device_for_attestation=sol
+ro.product.name_for_attestation=sol
+ro.power.location.x=456
+ro.power.location.y=228
+ro.stem_primary.location.x=425
+ro.stem_primary.location.y=114
+ro.product.bootanim.file=bootanimation-seluna-456.zip
