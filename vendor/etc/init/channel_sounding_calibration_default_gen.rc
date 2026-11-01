@@ -1,0 +1,6 @@
+# Gen Default Channel Sounding Calibration Remote Updatable File
+service channel_sounding_calibration_default_gen /vendor/bin/channel_sounding_calibration_default_gen.sh
+    class hal
+    user bluetooth
+    group bluetooth
+    oneshot

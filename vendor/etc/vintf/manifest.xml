@@ -1,0 +1,36 @@
+<!--
+    Input:
+        device/google/sw5100/manifest-8.xml
+        device/google/sw5100/bsp/sw5100-lw6/manifest.xml
+        device/google/seluna/bluetooth/manifest_bt_common.xml
+        device/google/seluna/bluetooth/manifest_bt_lmp.xml
+-->
+<manifest version="9.0" type="device" target-level="8">
+    <hal format="aidl">
+        <name>android.hardware.bluetooth</name>
+        <fqname>IBluetoothHci/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.bluetooth.lmp_event</name>
+        <fqname>IBluetoothLmpEvent/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.bluetooth.ranging</name>
+        <fqname>IBluetoothChannelSounding/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.gatekeeper</name>
+        <fqname>IGatekeeper/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.google.bluetooth_ext</name>
+        <version>4</version>
+        <fqname>IBTChannelAvoidance/default</fqname>
+        <fqname>IBluetoothCcc/default</fqname>
+        <fqname>IBluetoothExt/default</fqname>
+        <fqname>IBluetoothSar/default</fqname>
+    </hal>
+    <sepolicy>
+        <version>202604</version>
+    </sepolicy>
+</manifest>

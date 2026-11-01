@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<GestureSensorConfigurations>
+    <GestureSensorConfiguration>
+        <sensorType>131090</sensorType>
+        <isWakeUpSensor>true</isWakeUpSensor>
+        <supportedGesture sensorEventCode="1" gesture="DoublePinch"/>
+        <supportedGesture sensorEventCode="2" gesture="WristTurn"/>
+        <supportedGesture sensorEventCode="5" gesture="PalmUpDoublePinch"/>
+    </GestureSensorConfiguration>
+</GestureSensorConfigurations>

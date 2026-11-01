@@ -1,0 +1,12 @@
+service vendor.set_sota_boot /vendor/bin/misc_writer --set-sota-boot
+    user root
+    disabled
+    oneshot
+
+# Custom bootloader thermal threshold for a factory (silent) OTA: stage 1
+on init && property:ro.boot.mode=sota
+    exec_start vendor.set_sota_boot
+
+# Custom bootloader thermal threshold for a factory (silent) OTA: stage 2
+on property:persist.vendor.factoryota.reboot=enabled
+    exec_start vendor.set_sota_boot
