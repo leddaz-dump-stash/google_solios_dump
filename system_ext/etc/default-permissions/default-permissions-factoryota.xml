@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+    <exception package="com.google.android.factoryota">
+        <!-- Pre-grant ACCESS_LOCAL_NETWORK for factory operations -->
+        <permission name="android.permission.ACCESS_LOCAL_NETWORK"/>
+    </exception>
+</exceptions>
+

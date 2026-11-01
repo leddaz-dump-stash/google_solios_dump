@@ -1,0 +1,23 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_dlkm.brand=google
+ro.product.system_dlkm.device=solios
+ro.product.system_dlkm.manufacturer=Google
+ro.product.system_dlkm.model=Pixel Watch 3
+ro.product.system_dlkm.name=solios
+ro.system_dlkm.build.date=Fri Jul 31 13:30:14 UTC 2026
+ro.system_dlkm.build.date.utc=1785504614
+ro.system_dlkm.build.fingerprint=google/solios/solios:17/CP3A.260905.002/15989242:user/release-keys
+ro.system_dlkm.build.id=CP3A.260905.002
+ro.system_dlkm.build.uuid=UK9IjTor-8UxNp12Xjs7cWy95Pv8CvesF_QZ-KxyB3s
+ro.system_dlkm.build.tags=release-keys
+ro.system_dlkm.build.type=user
+ro.system_dlkm.build.version.incremental=15989242
+ro.system_dlkm.build.version.release=17
+ro.system_dlkm.build.version.release_or_codename=17
+ro.system_dlkm.build.version.sdk=37
+ro.system_dlkm.build.version.sdk_full=37.1
+# end of file
+

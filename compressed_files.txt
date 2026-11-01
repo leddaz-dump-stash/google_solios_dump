@@ -1,0 +1,2 @@
+system/system/app/YouTubeMusicClockworkRetailMode/YouTubeMusicClockworkRetailMode.apk.xz
+system/system/app/MapsClockwork/MapsClockwork.apk.xz

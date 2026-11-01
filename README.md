@@ -1,0 +1,14 @@
+# solios-user 17 CP3A.260905.002 15989242 release-keys
+- manufacturer: google
+- platform: monaco
+- codename: solios
+- flavor: solios-user
+- release: 17
+- id: CP3A.260905.002
+- incremental: 15989242
+- tags: release-keys
+- fingerprint: google/solios/solios:17/CP3A.260905.002/15989242:user/release-keys
+- is_ab: true
+- brand: google
+- branch: solios-user-17-CP3A.260905.002-15989242-release-keys
+- repo: google_solios_dump

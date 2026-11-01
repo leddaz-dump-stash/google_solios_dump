@@ -1,0 +1,29 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.odm.brand=google
+ro.product.odm.device=solios
+ro.product.odm.manufacturer=Google
+ro.product.odm.model=Pixel Watch 3
+ro.product.odm.name=solios
+ro.odm.product.cpu.abilist=armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist64=
+ro.odm.build.date=Fri Jul 31 13:30:14 UTC 2026
+ro.odm.build.date.utc=1785504614
+ro.odm.build.fingerprint=google/solios/solios:17/CP3A.260905.002/15989242:user/release-keys
+ro.odm.build.id=CP3A.260905.002
+ro.odm.build.uuid=UK9IjTor-8UxNp12Xjs7cWy95Pv8CvesF_QZ-KxyB3s
+ro.odm.build.tags=release-keys
+ro.odm.build.type=user
+ro.odm.build.version.incremental=15989242
+ro.odm.build.version.release=17
+ro.odm.build.version.release_or_codename=17
+ro.odm.build.version.sdk=37
+ro.odm.build.version.sdk_full=37.1
+####################################
+# from variable PRODUCT_ODM_PROPERTIES
+####################################
+# end of file
+

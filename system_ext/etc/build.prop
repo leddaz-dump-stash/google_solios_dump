@@ -1,0 +1,33 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=google
+ro.product.system_ext.device=solios
+ro.product.system_ext.manufacturer=Google
+ro.product.system_ext.model=Pixel Watch 3
+ro.product.system_ext.name=solios
+ro.system_ext.build.date=Fri Jul 31 13:30:14 UTC 2026
+ro.system_ext.build.date.utc=1785504614
+ro.system_ext.build.fingerprint=google/solios/solios:17/CP3A.260905.002/15989242:user/release-keys
+ro.system_ext.build.id=CP3A.260905.002
+ro.system_ext.build.uuid=UK9IjTor-8UxNp12Xjs7cWy95Pv8CvesF_QZ-KxyB3s
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=15989242
+ro.system_ext.build.version.release=17
+ro.system_ext.build.version.release_or_codename=17
+ro.system_ext.build.version.sdk=37
+ro.system_ext.build.version.sdk_full=37.1
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+ro.audio.ihaladaptervendorextension_enabled=true
+ro.audio.ihaladaptervendorextension_libname=libaudiohalvendorextn_wear.so
+config.enable_display_offload=1
+persist.vendor.dpm.feature=0
+telephony.active_modems.max_count=2
+ro.clockwork.esim_version=V1
+ro.adb.secure=1
+# end of file
+
